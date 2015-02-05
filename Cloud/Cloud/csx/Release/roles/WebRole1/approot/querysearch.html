@@ -1,0 +1,25 @@
+﻿<!--Main display page where queries are shown.-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="query.js"></script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:regular,bold" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="main">
+
+        <h1 class="title">Ajax Query Search</h1>
+        <h5 class="title">Errything From A to B. Mostly. Kinda. Hopefully.</h5>
+        <!-- Main Input -->
+        <input type="text" id="search" autocomplete="off" autofocus/>
+
+        <!-- Show Results -->
+        <h4 id="results-text">Showing results for: <b id="search-string"></b></h4>
+        <ul id="results"></ul>
+
+    </div>
+</body>
+</html>
